@@ -288,6 +288,7 @@ a.btn:hover {
 
 .banner-content {
    border: 1px solid lightgrey;
+   margin-bottom: 5em;
 }
 
 .col-left {
@@ -310,9 +311,44 @@ a.btn:hover {
 .button-office {
    margin: 20px 10px 0 0;
 }
-.col-right a {
+.banner-content .col-right a {
     padding-right: 6em;
     padding-left: 6em;
 }
+
+/* sezione partner  */
+
+.partner .col-left {
+    width: 50%;
+}
+
+.col-left img {
+    width: 90%;
+}
+
+.partner .col-right {
+    width: 50%;
+    padding-right: 3em;
+}
+
+.col-right p {
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 1.5em;
+}
+
+.partner .col-right a {
+   background-color: white;
+   color: grey;
+   border: 1px solid grey;
+   transition: 0.5s;
+}
+
+.partner .col-right a:hover {
+    background-color: rgb(165, 165, 165);
+    color: white;
+} 
+
+
 
 

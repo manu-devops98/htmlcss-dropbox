@@ -56,7 +56,9 @@ body {
 .mg-bottom {
     margin-bottom: 2em;
 }
-
+.center {
+    text-align: center;
+}
 /* header */
 header {
     height: 90vh;
@@ -349,6 +351,21 @@ a.btn:hover {
     color: white;
 } 
 
+/* other info  */
 
+.other-info .main-col, 
+.other-info .main-col-middle {
+    border: none;
+    height: 100%;
+    margin-bottom: 5em;
+}
+
+.other-info .main-col img {
+    width: 100%;
+}
+
+.other-info .main-col-middle img {
+    width: 100%;
+}
 
 

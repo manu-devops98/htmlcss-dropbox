@@ -32,8 +32,13 @@ body {
     margin: 0 auto;
 }
 
-.pdt-3 {
-    padding-top: 3em;
+.width-70 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.pdt-2 {
+    padding-top: 2em;
 }
 .pdt-4 {
     padding-top: 4em;
@@ -41,14 +46,16 @@ body {
 .pdt-6 {
     padding-top: 6em;
 }
+.pdt-9 {
+    padding-top: 9em;
+}
 
 
 /* header */
 header {
+    height: 90vh;
     width: 100%;
-    /* height: 500px; */
     background-color: #ADD1EA;
-    position: relative;
 }
 
 .logo {
@@ -63,6 +70,7 @@ header {
     width: 100%;
     height: 3.5em;
     margin-bottom: 1em;
+    border-bottom: 1px solid #ADD1EA;
     position: fixed;
     top: 0;
     left: 0;
@@ -113,35 +121,83 @@ a.btn:hover {
     margin-bottom: 0.5em;
 }
 
-.jumbo-img img {
-    max-width: 100%;
-    width: 45%;
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translateY(-50%, -40%);
-}
-
-.jumbo-text {
-    width: 35%;
-    text-align: left;
-    font-size: 1em;
-}
-
-.jumbo-par, .jumbo-par-2  {
+.jumbo-desc {
+    width: 100%;
     margin: 1em 0 2em 0;
 }
-.jumbo-par-2 {
-    font-size: 12px;
+
+.container-text {
+    width: 35%;
+    font-size: 1em;
 }
 
-.jumbotron a.btn {
+.container-par, .container-par-2  {
+    margin-bottom: 2em;
+}
+.container-par-2 {
+    font-size: 12px;
+    margin-top: 1em;
+}
+
+.container a.btn {
     font-size: 1em;
-    margin-bottom: 15px;
 }
 
 .jumbotron i {
     font-size: 2em;
-    margin-bottom: 2em;
 }
 
+.container-img {
+    width: calc(65% - 50px);
+}
+.container-img img {
+    width: 100%;
+}
+/* main  */
+
+/* section planes  */
+
+.main-title {
+    font-size: 2.3em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.planes .check {
+    margin-bottom: 2em;
+}
+.planes .check div {
+    display: inline-block;
+    border: 8px solid lightgrey;
+    border-radius: 40%;
+    background-color: white;
+    margin-right: 5px;
+}
+
+.planes #check-1 {
+    border: 8px solid #0092fa;
+}
+
+.planes a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+.container-columns {
+    width: 100%;
+}
+.main-col, .main-col-middle {
+    width: calc(100% / 3 - 40px);
+    border: 1px solid lightgrey;
+    height: 500px;
+}
+
+.main-col-middle {
+    margin: 0 60px 0 60px;
+}
+
+.col-title {
+    font-size: 1em;
+    text-align: center;
+    padding: 0.5em;
+    border-bottom: 1px solid lightgrey;
+}

@@ -53,6 +53,9 @@ body {
 .pdt-9 {
     padding-top: 9em;
 }
+.pdt-12 {
+    padding-top: 12em;
+}
 .mg-bottom {
     margin-bottom: 2em;
 }
@@ -368,4 +371,13 @@ a.btn:hover {
     width: 100%;
 }
 
+.other-info .main-col span {
+    text-decoration: underline;
+}
+
+/* clients section  */
+
+.clients a {
+    color: #2590FF;
+}
 

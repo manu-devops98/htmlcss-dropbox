@@ -121,7 +121,7 @@ a.btn:hover {
     margin-bottom: 0.5em;
 }
 
-.jumbo-desc {
+.jumbo-desc-container {
     width: 100%;
     margin: 1em 0 2em 0;
 }
@@ -131,28 +131,30 @@ a.btn:hover {
     font-size: 1em;
 }
 
-.container-par, .container-par-2  {
+.jumbo-par, .jumbo-par-2  {
     margin-bottom: 2em;
 }
-.container-par-2 {
+.jumbo-par-2 {
     font-size: 12px;
     margin-top: 1em;
 }
 
-.container a.btn {
+.container-text a.btn {
     font-size: 1em;
 }
 
-.jumbotron i {
+.jumbotron a > i {
     font-size: 2em;
+    color: black;
 }
 
-.container-img {
+.jumbo-img {
     width: calc(65% - 50px);
 }
-.container-img img {
+.jumbo-img img {
     width: 100%;
 }
+
 /* main  */
 
 /* section planes  */
@@ -182,9 +184,15 @@ a.btn:hover {
     color: black;
     margin-right: 10px;
 }
-.container-columns {
+/* .container-columns {
     width: 100%;
+} */
+
+.content-col {
+    width: 80%;
+    margin: 2em auto 5em;
 }
+
 .main-col, .main-col-middle {
     width: calc(100% / 3 - 40px);
     border: 1px solid lightgrey;
@@ -201,3 +209,27 @@ a.btn:hover {
     padding: 0.5em;
     border-bottom: 1px solid lightgrey;
 }
+
+/* contenuto colonne  */
+.content-title {
+    margin-bottom: 15px;
+}
+
+.prices {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.prices-info {
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 3em;
+}
+
+.par-list li{
+    list-style-type: none;
+    font-size: 12px;
+    margin-bottom: 1.5em;
+    color: black;
+}
+

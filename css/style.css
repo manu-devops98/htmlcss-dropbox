@@ -179,7 +179,7 @@ a.btn:hover {
     border: 8px solid #0092fa;
 }
 
-.planes a {
+.planes .check a {
     text-decoration: none;
     color: black;
     margin-right: 10px;
@@ -196,7 +196,7 @@ a.btn:hover {
 .main-col, .main-col-middle {
     width: calc(100% / 3 - 40px);
     border: 1px solid lightgrey;
-    height: 500px;
+    height: 780px;
 }
 
 .main-col-middle {
@@ -234,11 +234,45 @@ a.btn:hover {
 }
 
 .button-col {
-    margin: 2em 0 1.5em 0;
+    margin: 2em 0 0;
 }
-.content-col a {
+.button-col > a {
     color: white;
     margin: 0 auto ;
     padding: 0.5em 4.5em;
+}
+.buy {
+    margin: 1.5em 0 1.5em 0;
+}
+.content-col span {
+    display: inline-block;
+    padding: 2em 0 2em 0;
+    font-size: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+.buy-a {
+    font-size: 12px;
+    color: #2590FF;
+}
+
+.resume-plane {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2em 0 1.5em 0;
+}
+
+.resume-list {
+    list-style-type: none;
+}
+
+.resume-list li {
+    font-size: 12px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.resume-list i {
+    color: #2590FF;
 }
 

@@ -499,7 +499,7 @@ a.btn:hover {
 }
 
 .container-free {
-    padding: 5em 0 10em 0;
+    padding: 5em 0 12em 0;
 }
 
 .container-free h1 {
@@ -516,4 +516,33 @@ a.btn:hover {
 .container-free a:hover {
     background-color: #6B002B;
     color: white;
+}
+
+/* section faq  */
+
+.container-faq {
+    margin: 5em auto 5em;
+}
+
+.container-faq h1 {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 1.5em;
+}
+.faq-list {
+    list-style-type: none;
+}
+
+.faq-list li {
+    padding: 2em 0 2em 0;
+    border-bottom: 1px solid lightgrey;
+    font-weight: bold;
+}
+
+.faq-list li:first-child {
+    padding-top: 0em;
+}
+
+.faq-list span {
+    display: inline-block;
+    padding-left: 20em;
 }

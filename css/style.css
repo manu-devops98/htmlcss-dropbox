@@ -546,3 +546,49 @@ a.btn:hover {
     display: inline-block;
     padding-left: 20em;
 }
+
+/* footer  */
+footer {
+    width: 100%;
+    background-color: black;
+}
+.container-foot {
+    padding: 3.5em 0 5em 0;
+}
+.col-foot {
+    width: 20%;
+    height: 100%;
+}
+
+.col-foot h3 {
+    color: white;
+    margin-bottom: 1em;
+}
+.foot-list {
+    list-style-type: none;
+}
+
+.foot-list li {
+    margin-bottom: 0.5em;
+}
+
+.foot-list li a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.foot-list li a:hover {
+    text-decoration: underline;
+}
+
+.language-content {
+    color: grey;
+    padding: 3.5em 0 2em 0;
+    display: inline-block;
+    border-top: 2px solid grey;
+}
+.language span:last-child {
+    vertical-align: middle;
+}
+

@@ -18,26 +18,35 @@
     <header>
            <!-- nav  -->
            <nav class="navbar clearfix">
-               <div class="float">
-                   <div class="logo">
-                      <img src="img/logo-small.png" alt="dropbox logo">
+            <div class="container-nav">
+                <div class="float logo">
+                  <img src="img/logo-small.png" alt="dropbox logo">
                    </div>
+                 <div class="float">
                      <ul>
-                         <li><a href="#">Perch&eacute; Dropbox</a></li>
-                         <li><a href="#">Funzioni</a></li>
-                         <li><a href="#">Piani e Prezzi</a></li>
+                        <li><a href="#">Perch&eacute; Dropbox</a></li>
+                        <li><a href="#">Funzioni</a></li>
+                        <li><a href="#">Piani e Prezzi</a></li>
                      </ul>
-               </div>
-
-               <div class="float-right">
-                    <ul class="nav-list">
-                        <li><a href="#">Supporto</a>
-                        <li><a href="#">Contatta l'ufficio vendite</a></li>
-                        <li><a href="#">Accedi</a></li>
-                        <a href="#" class="btn">Inizia</a>
-                    </ul>
-               </div>
-           </nav>
+                 </div>
+   
+                   <div class="float-right">
+                       <ul>
+                             <li><a href="#">Supporto</a>
+                             <li class="dropdown">
+                                 <a href="#" class="dropbtn">Contatta l'ufficio vendite</a>
+                                 <div class="dropdown-content">
+                                   <a href="#">Chat</a>
+                                   <a href="#">Email </a>
+                                   <a href="#">Faq</a>
+                                 </div>
+                             </li>
+                             <li><a href="#">Accedi</a></li>
+                             <li><a id="nav-btn" href="#" class="btn">Inizia</a></li>
+                       </ul>
+                   </div>     
+            </div>  
+        </nav>
 
       <!-- jumbotron  -->
            <div class="jumbotron width-80 pdt-6">
@@ -125,6 +134,7 @@
                                 <div class="button-col">
                                    <a href="" class="btn">Prova gratis per 30 giorni</a>
                                </div>
+
                            <span>oppure</span> <a class="buy-link" href="">acquista ora</a>
                              <h4 class="resume-plane">Punti salienti del piano</h4>
 

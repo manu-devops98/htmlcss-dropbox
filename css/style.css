@@ -442,11 +442,8 @@ a.btn:hover, #nav-btn:hover {
     font-size: 15px;
 }
 
-.other-info .main-col img {
-    width: 100%;
-}
-
-.other-info .main-col-middle img {
+.other-info .main-col img, 
+.other-info .main-col-middle img  {
     width: 100%;
 }
 
@@ -465,6 +462,7 @@ a.btn:hover, #nav-btn:hover {
     color: crimson;
 }
 
+
 /* university section  */
 .university-clients {
     width: 100%;
@@ -476,7 +474,7 @@ a.btn:hover, #nav-btn:hover {
 
 .university-clients .col-middle {
     width: 40%;
-    height: 430px;
+    max-height: 430px;
     background-color: #F5F5F5;
     overflow: auto;
 }
@@ -486,16 +484,9 @@ a.btn:hover, #nav-btn:hover {
     height: 100%;
 }
 
-.square-1, 
-.square-2,
-.square-3,
-.square-4,
-.square-5, 
-.square-6,
-.square-7,
-.square-8 {
-    width: 215px;
-    height: 215px;
+.square {
+    width: 50%;
+    height: 216px;
     margin: 0 auto;
 } 
 
@@ -523,14 +514,8 @@ a.btn:hover, #nav-btn:hover {
 .square-8 {
     background-color: #FFD600;
 }
-.square-1 img, 
-.square-2 img,
-.square-3 img,
-.square-4 img, 
-.square-5 img, 
-.square-6 img,
-.square-7 img,
-.square-8 img {
+
+.square img{
     width: 50%;
     padding-top: 5em;
     filter: invert(100%);
@@ -571,6 +556,8 @@ a.btn:hover, #nav-btn:hover {
 .container-middle .author {
     margin-bottom: 10em;
 }
+
+
 
 /* free  */
 

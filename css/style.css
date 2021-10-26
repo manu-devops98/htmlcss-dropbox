@@ -596,24 +596,52 @@ a.btn:hover, #nav-btn:hover {
 .container-faq h1 {
     border-bottom: 1px solid lightgrey;
     padding-bottom: 1.5em;
+    margin-bottom: 0;
 }
 .faq ul {
     list-style-type: none;
 }
 
-.faq ul li {
+.question {
     padding: 2em 0 2em 0;
     border-bottom: 1px solid lightgrey;
     font-weight: bold;
+    cursor: pointer;
 }
 
-.faq ul li:first-child {
+.question li:first-child {
     padding-top: 0em;
 }
 
 .faq ul span {
     display: inline-block;
     padding-left: 18em;
+}
+.question {
+    width: 100%;
+    height: 100%;
+}
+
+.question .fas.fa-angle-up {
+    display: none;
+}
+
+.question p {
+    display: none;
+}
+
+.question:hover .fas.fa-angle-up {
+    display: inline;
+}
+
+.question:hover .fas.fa-angle-down {
+    display: none;
+}
+
+.question:hover p {
+    display: inline-block;
+    padding-top: 3em;
+    color: gray;
 }
 
 /* footer  */
